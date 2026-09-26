@@ -1,0 +1,45 @@
+print("HOPE AI")
+
+institute=input("Enter your institute name?:")
+name=input("Enter your name?:")
+age=input("Enter your age?:")
+school=input("Enter your school name?:")
+degree=input("Enter your degree?:")
+
+
+print("a= 43")
+print("b= 340")
+add = a+b
+print("add=",add)
+
+print("a= 43")
+print("b= 34")
+sub = a-b
+print("sub=",sub)
+
+print("a= 63")
+print("b= 97")
+mul = a*b
+print("mul=",mul)
+
+print("a= 76")
+print("b= 31")
+div = a/b
+print("div=",div)
+
+print("a= 76")
+print("b= 31")
+fdiv = a//b
+print("fdiv=",fdiv)
+
+
+print("a= 76")
+print("b= 31")
+mod = a%b
+print("mod=",mod)
+
+
+print("a= 76")
+print("b= 31")
+power = a**b
+print("power=",power)
