@@ -1,0 +1,11 @@
+print("Welcome to Assignment-1")
+
+Num1=10
+Num2=30
+add=Num1+Num2
+print("Num1=10 \nNum2=30")
+print("add=",add)
+
+BMI=int(input("Enter your  BMI")
+if(BMI>35):
+  prin("overweight")
