@@ -1,0 +1,53 @@
+def SubfieldsinAI():
+  print("Sub-fields in AI are:")
+  print("Machine Learning")
+  print("Neural Networks")
+  print("Vision")
+  print("Robotics")
+  print("Speech Processing")
+  print("Natural Language Processing")
+SubfieldsinAI()
+
+def OddEven():
+  num1=int(input("Enter a number to check"))
+  if num1%2==0: 
+    print(f"{num1} is even")
+  else:
+    print(f"{num1} is odd")
+OddEven()
+
+
+def eligibility():
+  Gender=input("Enter your gender:")
+  Age=int(input("Enter your age:"))
+  if (Gender=="Male" and  Age>=21) or (Gender=="Female" and Age>=18):
+   print("Eligible for Marriage")
+
+  else:
+    print("Not Eligible for Marriage")
+eligibility()
+
+def percentage():
+  sub1=int(input("Enter your subject1 marks:"))
+  sub2=int(input("Enter your subject2 marks:"))
+  sub3=int(input("Enter your subject3 marks:"))
+  sub4=int(input("Enter your subject4 marks:"))
+  sub5=int(input("Enter your subject5 marks:"))
+  Total=sub1+sub2+sub3+sub4+sub5
+  percentage=(Total/500)*100
+  print("Total:",Total)
+  print("Percentage:",percentage)
+percentage()
+
+
+def triangle():
+  height=input("what is the heeight of triangle?")
+  breadth=input("what is the breadth of triangle?")
+  Area=(int(height)*int(breadth))/2
+  print("Area of Triangle:",Area)
+  Side1=input("what is the side1 of triangle?")
+  Side2=input("what is the side2 of triangle?")
+  Side3=input("what is the side3 of triangle?")
+  Perimeter=int(Side1)+int(Side2)+int(Side3)
+  print("Perimeter of Triangle:",Perimeter)
+triangle()
