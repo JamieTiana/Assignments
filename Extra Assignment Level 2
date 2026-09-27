@@ -1,0 +1,49 @@
+for temp in range(0,20):
+    print(temp)
+
+
+for temp in range(10,20):
+    print(temp)
+
+List2=[10, 20, 14, 55, 43, 87, 76]
+print(List2(2))
+
+
+
+int(len)
+len=0
+List2=[10, 20, 14, 55, 43, 87, 76]
+for n in List2:
+  len+=1
+  print(len)
+
+List2=[10, 20, 14, 55, 43, 87, 76]
+print(len(List2))
+
+text="ArtificialIntelligence"
+for n in text:
+  print(n)
+
+name=input("Enter your name:")
+age=int(input("Enter your age:"))
+profession=input("Enter your profession:")
+print(f"-{name}-\n-{age}-\n-{profession}-")
+
+tup = (1, 'Welcome', 2,"Hope")
+print(tup)
+
+Tuple1 = (0, 1, 2, 3)
+Tuple2=('python', 'HOPE')
+tup=Tuple1+Tuple2
+print(tup)
+
+List1=[20,10,16,19,25,1,276,188]
+for num in List1:
+  if num%2!=0:
+    print(num,"is odd")
+
+  else:
+    print(num,"is even")
+
+
+
